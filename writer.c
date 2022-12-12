@@ -50,7 +50,7 @@ int main() {
 
         /* Access to the shared memory area */
 
-        for (index = 1; index <= 100; index++)
+        for (index = 1; index <= 1000; index++)
             printf("The shared memory shmptr[%d] = %d\n", index, shmptr[index]);
 
         /* Release the semaphore lock */
